@@ -6,4 +6,10 @@ class HomepageView(ListView):
     model = Organization
     context_object_name = 'home'
     template_name = "home.html"
+
+class OrganizationnList(ListView) : 
+    model = Organization
+    context_object_name = 'organzation'
+    template_name = 'organization'
+    paginate_by = 5
 # Create your views here.
