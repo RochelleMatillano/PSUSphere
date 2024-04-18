@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic.list import ListView
-from projectsite.models import Organization
+from studentorg.models import Organization
 
 class HomePageView(ListView):
     model = Organization
